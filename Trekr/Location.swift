@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Location {
+struct Location: Decodable {
     let id: Int
     let name: String
     let country: String
