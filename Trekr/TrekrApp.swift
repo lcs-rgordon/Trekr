@@ -9,11 +9,16 @@ import SwiftUI
 
 @main
 struct TrekrApp: App {
+    
+    // @StateObject makes the instance of the Locations class stay alive for use elsewhere
+    // Requires that Locations class conform to ObservableObject protocol
+    @StateObject var locations = Locations()
+    
     var body: some Scene {
         WindowGroup {
             TabView {
                 NavigationView {
-                    ContentView(location: Locations().primary)
+                    ContentView(location: locations.primary)
                 }
                 .tabItem {
                     Image(systemName: "airplane.circle.fill")
@@ -28,6 +33,8 @@ struct TrekrApp: App {
                     Text("Locations")
                 }
             }
+            // This modifier passes the locations object into any views that ask for it
+            .environmentObject(locations)
         }
     }
 }
