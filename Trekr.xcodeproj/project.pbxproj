@@ -20,6 +20,8 @@
 		81EAC822259261C10046E682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EAC825259261C10046E682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81EAC827259261C10046E682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EAC82E259264420046E682 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		81EAC82F259264420046E682 /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 				81EAC820259261C10046E682 /* ContentView.swift */,
 				81EAC822259261C10046E682 /* Assets.xcassets */,
 				81EAC827259261C10046E682 /* Info.plist */,
+				81EAC82E259264420046E682 /* locations.json */,
+				81EAC82F259264420046E682 /* tips.json */,
 				81EAC824259261C10046E682 /* Preview Content */,
 			);
 			path = Trekr;

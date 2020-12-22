@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+        
+            Image("highlands")
+                .resizable()
+                .scaledToFit()
+            
+            Text("The Highlands")
+        }
+        
     }
 }
 
