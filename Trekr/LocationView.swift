@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LocationView.swift
 //  Trekr
 //
 //  Created by Russell Gordon on 2020-12-22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LocationView: View {
     
     // Required to load this view
     let location: Location
@@ -39,15 +39,16 @@ struct ContentView: View {
                 .padding(.horizontal)
                         
             
-        }.navigationTitle("Discover")
+        }
+        .navigationTitle("Explore")
         
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LocationView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView(location: Location.example)
+            LocationView(location: Location.example)
         }
     }
 }

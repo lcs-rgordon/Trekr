@@ -18,7 +18,7 @@ struct TrekrApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    ContentView(location: locations.primary)
+                    LocationView(location: locations.primary)
                 }
                 .tabItem {
                     Image(systemName: "airplane.circle.fill")

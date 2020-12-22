@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81EAC81F259261C10046E682 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC81E259261C10046E682 /* TrekrApp.swift */; };
-		81EAC821259261C10046E682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC820259261C10046E682 /* ContentView.swift */; };
+		81EAC821259261C10046E682 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC820259261C10046E682 /* LocationView.swift */; };
 		81EAC823259261C10046E682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EAC822259261C10046E682 /* Assets.xcassets */; };
 		81EAC826259261C10046E682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EAC825259261C10046E682 /* Preview Assets.xcassets */; };
 		81EAC832259270380046E682 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC831259270380046E682 /* Location.swift */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		81EAC81B259261C10046E682 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EAC81E259261C10046E682 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
-		81EAC820259261C10046E682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81EAC820259261C10046E682 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		81EAC822259261C10046E682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EAC825259261C10046E682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81EAC827259261C10046E682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 				81EAC83B25927C9E0046E682 /* WorldView.swift */,
 				81EAC83E2592A2DC0046E682 /* Tip.swift */,
 				81EAC8412592A3DB0046E682 /* TipsView.swift */,
-				81EAC820259261C10046E682 /* ContentView.swift */,
+				81EAC820259261C10046E682 /* LocationView.swift */,
 				81EAC834259274BA0046E682 /* Locations.swift */,
 				81EAC831259270380046E682 /* Location.swift */,
 				81EAC822259261C10046E682 /* Assets.xcassets */,
@@ -161,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81EAC821259261C10046E682 /* ContentView.swift in Sources */,
+				81EAC821259261C10046E682 /* LocationView.swift in Sources */,
 				81EAC832259270380046E682 /* Location.swift in Sources */,
 				81EAC83C25927C9E0046E682 /* WorldView.swift in Sources */,
 				81EAC83F2592A2DC0046E682 /* Tip.swift in Sources */,
