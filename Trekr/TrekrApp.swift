@@ -32,6 +32,14 @@ struct TrekrApp: App {
                     Image(systemName: "star.fill")
                     Text("Locations")
                 }
+                
+                NavigationView {
+                    TipsView()
+                }
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Tips")
+                }
             }
             // This modifier passes the locations object into any views that ask for it
             .environmentObject(locations)
