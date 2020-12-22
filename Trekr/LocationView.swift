@@ -20,6 +20,11 @@ struct LocationView: View {
                 
                 HStack {
                     
+                    Image(location.heroPicture)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 44, height: 44)
+
                     VStack(alignment: .leading) {
                         Text(location.name)
                         Text(location.country)
