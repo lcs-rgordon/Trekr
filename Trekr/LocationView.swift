@@ -15,7 +15,10 @@ struct LocationView: View {
         
         // Show a sorted list of locations
         List(locations.places.sorted(by: { $0.name < $1.name })) { location in
-            Text(location.name)
+            
+            NavigationLink(destination: LocationDetailView(location: location)) {
+                Text(location.name)
+            }
         }
         .navigationTitle("Locations")
         
