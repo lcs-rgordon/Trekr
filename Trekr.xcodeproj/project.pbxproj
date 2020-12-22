@@ -15,6 +15,7 @@
 		81EAC835259274BA0046E682 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC834259274BA0046E682 /* Locations.swift */; };
 		81EAC838259279B60046E682 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 81EAC82E259264420046E682 /* locations.json */; };
 		81EAC839259279B60046E682 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 81EAC82F259264420046E682 /* tips.json */; };
+		81EAC83C25927C9E0046E682 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAC83B25927C9E0046E682 /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		81EAC82F259264420046E682 /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		81EAC831259270380046E682 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		81EAC834259274BA0046E682 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		81EAC83B25927C9E0046E682 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				81EAC81E259261C10046E682 /* TrekrApp.swift */,
+				81EAC83B25927C9E0046E682 /* WorldView.swift */,
 				81EAC820259261C10046E682 /* ContentView.swift */,
 				81EAC834259274BA0046E682 /* Locations.swift */,
 				81EAC831259270380046E682 /* Location.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				81EAC821259261C10046E682 /* ContentView.swift in Sources */,
 				81EAC832259270380046E682 /* Location.swift in Sources */,
+				81EAC83C25927C9E0046E682 /* WorldView.swift in Sources */,
 				81EAC835259274BA0046E682 /* Locations.swift in Sources */,
 				81EAC81F259261C10046E682 /* TrekrApp.swift in Sources */,
 			);
