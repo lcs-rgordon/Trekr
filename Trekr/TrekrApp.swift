@@ -37,7 +37,7 @@ struct TrekrApp: App {
                     TipsView()
                 }
                 .tabItem {
-                    Image(systemName: "list.bullet")
+                    Image(systemName: "person.fill.questionmark")
                     Text("Tips")
                 }
             }
