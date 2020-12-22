@@ -17,7 +17,17 @@ struct LocationView: View {
         List(locations.places.sorted(by: { $0.name < $1.name })) { location in
             
             NavigationLink(destination: LocationDetailView(location: location)) {
-                Text(location.name)
+                
+                HStack {
+                    
+                    VStack(alignment: .leading) {
+                        Text(location.name)
+                        Text(location.country)
+                            .font(.subheadline)
+                    }
+                    
+                }
+                
             }
         }
         .navigationTitle("Locations")
