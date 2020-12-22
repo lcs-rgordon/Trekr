@@ -18,7 +18,7 @@ struct TrekrApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    LocationDetailView(location: locations.primary)
+                    LocationView()
                 }
                 .tabItem {
                     Image(systemName: "list.bullet")
