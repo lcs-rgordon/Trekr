@@ -27,7 +27,7 @@ struct WorldView: View {
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
                 
                 NavigationLink(
-                    destination: LocationView(location: location)) {
+                    destination: LocationDetailView(location: location)) {
                     
                     Image(location.country)
                         .resizable()
@@ -40,7 +40,7 @@ struct WorldView: View {
                 
             }
         }
-            .navigationTitle("Locations")
+        .navigationTitle("Map")
         
     }
 }

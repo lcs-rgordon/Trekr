@@ -18,19 +18,19 @@ struct TrekrApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    LocationView(location: locations.primary)
+                    LocationDetailView(location: locations.primary)
                 }
                 .tabItem {
-                    Image(systemName: "airplane.circle.fill")
-                    Text("Discover")
+                    Image(systemName: "list.bullet")
+                    Text("Locations")
                 }
                 
                 NavigationView {
                     WorldView()
                 }
                 .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Locations")
+                    Image(systemName: "map")
+                    Text("Map")
                 }
                 
                 NavigationView {
