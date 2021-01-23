@@ -20,7 +20,7 @@ struct TrekrApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    LocationView()
+                    LocationView(locations: locations)
                 }
                 .tabItem {
                     Image(systemName: "list.bullet")
@@ -28,7 +28,7 @@ struct TrekrApp: App {
                 }
                 
                 NavigationView {
-                    WorldView()
+                    WorldView(locations: locations)
                 }
                 .tabItem {
                     Image(systemName: "map")

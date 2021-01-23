@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LocationView: View {
     
-    @EnvironmentObject var locations: LocationStore
+    @ObservedObject var locations: LocationStore
 
     var body: some View {
         
@@ -42,6 +42,6 @@ struct LocationView: View {
 
 struct LocationView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationView()
+        LocationView(locations: testStore)
     }
 }

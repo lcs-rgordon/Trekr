@@ -11,7 +11,7 @@ import SwiftUI
 
 struct WorldView: View {
     
-    @EnvironmentObject var locations: LocationStore
+    @ObservedObject var locations: LocationStore
     
     // Centre on London, show most of Europe
     @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.507222,
@@ -50,6 +50,6 @@ struct WorldView: View {
 
 struct WorldView_Previews: PreviewProvider {
     static var previews: some View {
-        WorldView()
+        WorldView(locations: testStore)
     }
 }
