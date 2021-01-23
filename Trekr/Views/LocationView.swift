@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LocationView: View {
     
-    @EnvironmentObject var locations: Locations
+    @EnvironmentObject var locations: LocationStore
 
     var body: some View {
         
