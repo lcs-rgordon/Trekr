@@ -1,5 +1,5 @@
 //
-//  Locations.swift
+//  LocationStore.swift
 //  Trekr
 //
 //  Created by Russell Gordon on 2020-12-22.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Locations: ObservableObject {
+class LocationStore: ObservableObject {
     
     let places: [Location]
     
