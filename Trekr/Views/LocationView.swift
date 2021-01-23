@@ -14,7 +14,7 @@ struct LocationView: View {
     var body: some View {
         
         // Show a sorted list of locations
-        List(locations.places.sorted(by: { $0.name < $1.name })) { location in
+        List(locations.places) { location in
             
             NavigationLink(destination: LocationDetailView(location: location)) {
                 

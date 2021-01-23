@@ -9,7 +9,7 @@ import Foundation
 
 class LocationStore: ObservableObject {
     
-    let places: [Location]
+    var places: [Location]
     
     var primary: Location {
         places[0]
@@ -25,6 +25,11 @@ class LocationStore: ObservableObject {
         
         // Convert the data from the JSON file into the array
         places = try! JSONDecoder().decode([Location].self, from: data)
+        
+        // Sort the list of locations
+        places.sort(by: {
+            $0.name < $1.name
+        })
         
     }
     
