@@ -21,14 +21,17 @@ struct WorldView: View {
     
     var body: some View {
         
-        // Make an annotation for each place from the locations JSON file
+        // Iterate over each location
         Map(coordinateRegion: $region, annotationItems: locations.places) { location in
             
+            // Make an annotation on the map for each place
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
                 
+                // Add a navigation link to the location detail view
                 NavigationLink(
                     destination: LocationDetailView(location: location)) {
                     
+                    // Use an image for the content of the nav link
                     Image(location.country)
                         .resizable()
                         .cornerRadius(10)
