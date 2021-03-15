@@ -10,11 +10,7 @@ import Foundation
 class LocationStore: ObservableObject {
     
     var places: [Location]
-    
-    var primary: Location {
-        places[0]
-    }
-    
+        
     init() {
         
         // Get a pointer to the file

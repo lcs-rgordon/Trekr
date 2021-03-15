@@ -24,7 +24,7 @@ struct TrekrApp: App {
                 }
                 .tabItem {
                     Image(systemName: "list.bullet")
-                    Text("LocationStore")
+                    Text("Locations")
                 }
                 
                 NavigationView {
